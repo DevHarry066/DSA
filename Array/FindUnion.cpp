@@ -24,6 +24,7 @@ int main()
     vector<int> Union = FindUnion(arr1, arr2, n, m);
     cout << "Union of arr1 and arr2 is " << endl;
     for (auto &val : Union)
+
         cout << val << " ";
     return 0;
 }
